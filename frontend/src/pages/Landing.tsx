@@ -61,12 +61,11 @@ function Landing() {
         <p className="text-green-700 font-semibold tracking-wide uppercase text-sm mb-3">
           🇮🇳 In the spirit of Swachh Bharat Mission &amp; Swasth Nagarik
         </p>
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
-          Swachh AI
-        </h1>
-        <p className="text-xl text-green-700 font-medium mb-4">
-          Powering the Future of Swachh Bharat
-        </p>
+        <img
+          src="/swachh-ai-logo.png"
+          alt="Swachh AI — Powering the Future of Swachh Bharat"
+          className="mx-auto w-56 sm:w-72 rounded-2xl shadow-lg mb-6"
+        />
         <p className="text-gray-600 max-w-2xl mx-auto mb-8">
           An AI-powered civic platform that makes identifying, reporting, routing, and resolving
           cleanliness issues effortless.

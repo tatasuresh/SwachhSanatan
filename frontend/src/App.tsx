@@ -60,12 +60,13 @@ function Shell({ children }: { children: React.ReactNode }) {
         ) : (
           <div className="max-w-7xl mx-auto px-4 py-4 sm:py-6 sm:px-6 lg:px-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <Link to="/" className="text-2xl sm:text-4xl font-bold text-green-700">
-                🧹✨ Swachh AI
+              <Link to="/" className="inline-block">
+                <img
+                  src="/swachh-name.png"
+                  alt="Swachh AI — Powering the Future of Swachh Bharat"
+                  className="h-12 sm:h-16 w-auto"
+                />
               </Link>
-              <p className="text-gray-600 mt-1 text-sm sm:text-base">
-                Powering the Future of Swachh Bharat
-              </p>
             </div>
             <div className="flex flex-col gap-2 text-sm sm:items-end">
               {navLinks}
