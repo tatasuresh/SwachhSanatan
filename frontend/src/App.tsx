@@ -61,10 +61,10 @@ function Shell({ children }: { children: React.ReactNode }) {
           <div className="max-w-7xl mx-auto px-4 py-4 sm:py-6 sm:px-6 lg:px-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <Link to="/" className="text-2xl sm:text-4xl font-bold text-green-700">
-                🧹 Nagar Seva
+                🧹✨ Swachh AI
               </Link>
               <p className="text-gray-600 mt-1 text-sm sm:text-base">
-                Community Waste &amp; Sanitation Intelligence
+                Powering the Future of Swachh Bharat
               </p>
             </div>
             <div className="flex flex-col gap-2 text-sm sm:items-end">
@@ -96,7 +96,7 @@ function Shell({ children }: { children: React.ReactNode }) {
 
       <footer className="bg-gray-800 text-white mt-12">
         <div className="max-w-7xl mx-auto px-4 py-6 text-center">
-          <p>Nagar Seva v0.1.0 | Community Waste Intelligence Platform for Chennai</p>
+          <p>Swachh AI v0.1.0 | Powering the Future of Swachh Bharat</p>
         </div>
       </footer>
     </div>

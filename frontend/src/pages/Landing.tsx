@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 const pledgeLines = [
   'I will not throw waste on roads, parks, or water bodies.',
   'I will report waste and sanitation issues I see in my neighborhood.',
-  'I will encourage at least one family member or neighbor to join Nagar Seva.',
+  'I will encourage at least one family member or neighbor to join Swachh AI.',
   'I will follow up until every report I file is actually resolved.',
 ]
 
@@ -62,15 +62,14 @@ function Landing() {
           🇮🇳 In the spirit of Swachh Bharat Mission &amp; Swasth Nagarik
         </p>
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
-          Nagar Seva
+          Swachh AI
         </h1>
         <p className="text-xl text-green-700 font-medium mb-4">
-          Technology for cleaner cities, powered by every citizen.
+          Powering the Future of Swachh Bharat
         </p>
         <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-          Your neighborhood won't clean itself. Every dirty corner you report gets AI-routed to
-          the right officer and tracked in the open — and your first report takes under a
-          minute.
+          An AI-powered civic platform that makes identifying, reporting, routing, and resolving
+          cleanliness issues effortless.
         </p>
         <div className="flex flex-wrap gap-4 justify-center mb-3">
           <button
@@ -176,7 +175,7 @@ function Landing() {
 
       {/* USPs */}
       <section>
-        <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">Why Nagar Seva</h2>
+        <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">Why Swachh AI</h2>
         <p className="text-gray-600 text-center mb-10 max-w-xl mx-auto">
           Built to make civic participation effortless and civic response accountable.
         </p>

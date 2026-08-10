@@ -8,7 +8,7 @@ function Dashboard() {
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-8">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome back to Nagar Seva</h2>
+      <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome back to Swachh AI</h2>
       <p className="text-gray-600 mb-6">
         Report waste issues, track resolution, and help keep your ward clean.
       </p>
